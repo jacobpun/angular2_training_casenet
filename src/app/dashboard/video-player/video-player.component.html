@@ -1,3 +1,6 @@
-<p>
-  video-player works!
-</p>
+<iframe width="560" height="315" [src]="getVideoUri()"></iframe>
+
+<div *ngIf = "selectedVideo != null">
+  <h2>{{ selectedVideo.title | uppercase }}</h2>
+  <b>Author: </b> {{ selectedVideo.author }}
+</div>

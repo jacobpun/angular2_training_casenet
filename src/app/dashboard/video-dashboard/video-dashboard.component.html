@@ -1,7 +1,7 @@
 <h1>Dashboard</h1>
 
 <section>
-  <app-video-list></app-video-list>
-  <app-video-player></app-video-player>
+  <app-video-list [videos] = "videoList | async" (selectd)= "videoSelected($event)"></app-video-list>
+  <app-video-player [selectedVideo] = "selectedVideo"></app-video-player>
   <app-stat-filters></app-stat-filters>
 </section>

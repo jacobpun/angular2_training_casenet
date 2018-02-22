@@ -1,3 +1,4 @@
-<p>
-  video-list works!
-</p>
+<button *ngFor="let video of videos; let i=index" (click) = "pick(video)">
+  {{ video.title | uppercase }}
+</button>
+

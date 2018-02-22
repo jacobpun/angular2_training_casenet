@@ -3,6 +3,7 @@ section {
   grid-gap: 16px;
 }
 
+
 @media (min-width: 720px) {
   section {
     grid-template-columns: repeat(3, 1fr);
