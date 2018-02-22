@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import '~materialize-css/dist/css/materialize.min.css'; */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+header {
+  padding: 12px;
+}
+
+footer {
+  padding: 12px;
+  margin-top: 12px;
+}
